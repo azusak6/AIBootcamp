@@ -35,7 +35,7 @@ for i in range(0, len(List)): # i chạy từ 0 đến giá trị cuối cùng c
     if( type(List[i]) != list ): # Kiểu dữ liệu của biến tại vị trí i không thuộc loại list
         if(List[i] > Max): Max = List[i]
 
-    else:
+    else: # Nếu như Kiểu dữ liệu của biến List[i] thuộc loại list thì ta sẽ so sánh với từng giá trị List[i][j]
         for j in List[i]:
             if(j > Max): Max = j
 
